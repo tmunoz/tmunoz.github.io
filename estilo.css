@@ -1,24 +1,25 @@
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: #f1f1f1;
 }
 
-p {
+nav p {
 	text-indent: 15px;
 	text-align: justify;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li  a{
+nav li  a{
     display: block;
     color: black;
     text-align: center;
@@ -26,13 +27,20 @@ li  a{
     text-decoration: none;
 }
 
-li a.active{
+nav li a.active{
 	background-color: #DF7401;
     color: white;
 }
-li a:hover:not(.active) {
+
+nav li a:hover:not(.active) {
     background-color: #585858;
     color: white;
 }
 
 h1,body {font-family: Helvetica,Arial,sans-serif}
+
+@media only screen and (max-device-width: 480px){
+    nav{
+        
+    }
+}
