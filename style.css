@@ -35,7 +35,7 @@ nav li a{
 
 .container2{
     text-align: left;
-    width: 500px;
+    width: 700px;
     border: 2px solid #eee;
 }
 
@@ -48,8 +48,3 @@ h1,body {
     font-family: Helvetica,Arial,sans-serif
 }
 
-@media only screen and (max-device-width: 480px){
-    nav{
-        
-    }
-}
