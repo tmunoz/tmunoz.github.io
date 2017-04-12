@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Retirement Simulator</title>
+
+</head>
+<body>
+	<h1 style="text-align: center;">Calcular jubilación soñada</h1>
+	<div class="container2">
+		<form id = 'Formulario'>
+			Pensión esperada:<br>
+			<input type="number" name="p_esperada">
+			<br><br>
+			Ahorro acumulado en su AFP:<br>
+			<input type="number" name="ahorro">
+			<br><br>
+			Monto que destina a su APV:<br>
+			<input type="number" name="monto">
+			<br><br>
+			Proyección de sueldo hasta la edad de jubilación:<br>
+			<input type="number" name="proy">
+			<br><br>
+			Interés a aplicar:<br>
+			<input type="number" name="interes">
+			<br><br>
+			Edad de jubilación esperada:<br>
+			<input type="number" name="edad_jubilacion">
+			<br><br>
+			Edad actual:<br>
+			<input type="number" name="edad_actual">
+			<br><br>.
+
+			Sexo:<br>
+			<input type="radio" name="genero" value="m">Masculino<br>
+			<input type="radio" name="genero" value="f">Femenino<br><br>
+			<input style="margin-left: 45%" type="submit" name="Submit">
+			<script src="jquery-3.2.0.js"></script>
+			<script src="math.js"></script>
+			<script src="calculo_esp.js"></script>
+			<br><br>
+		</form>
+		<p id='resultado'></p>
+	</div>
+</body>
+</html>
