@@ -17,8 +17,13 @@ nav p {
 
 nav li {
     float: left;
+    /*border-right: 1.2px solid #767676;*/
 }
 
+/*nav li:last-child {
+    border-right: none;
+}
+*/
 nav li  a{
     display: block;
     color: black;
@@ -39,8 +44,9 @@ nav li a:hover:not(.active) {
 
 h1,body {font-family: Helvetica,Arial,sans-serif}
 
+/*
 @media only screen and (max-device-width: 480px){
     nav{
         
     }
-}
+}*/
